@@ -8,7 +8,30 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Number game</h1>
+  <div class="container">
+    <header>
+      <img class="logo" src="https://img.freepik.com/premium-vector/cute-owl-flat-illustration-vector-flat-owl-icon-vector_516484-414.jpg" alt="">
+      <button class="btn reset">Again</button>
+    </header>
+    <main>
+      <div class="upper_part">
+        <h1>Guess my number!</h1>
+        <p class="secret_number">?</p>
+      </div>
+      <div class="lower_part">
+        <div class="left_part">
+          <input class="guess" type="number">
+          <button class="btn check">Check</button>
+        </div>
+        <div class="right_part">
+          <p class="message">Start guessing...</p>
+          <p>Score: <span class="score">20</span></p>
+          <p>Highest score: <span class="high_score">0</span></p>
+        </div>
+      </div>
+    </main>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
